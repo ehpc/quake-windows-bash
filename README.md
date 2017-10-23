@@ -8,7 +8,7 @@ It uses default minimizing and restoring animations, so there is almost no delay
 
 ## How to use
 
-It's pretty straighforward: :mouse:
+It's pretty straightforward: :mouse:
 * Download and install [AutoHotkey](https://autohotkey.com/)
 * Run `quake-windows-bash.ahk`
 * (Optionally) Place `quake-windows-bash.ahk` into auto startup folder (Win+R: "shell:startup")
