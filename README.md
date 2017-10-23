@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple [AutoHotkey](https://autohotkey.com/) script for enabling Quake-like hiding and showing of Windows WSI bash terminal. You just hold down *Control* key and press *Tilde* / *Backtick*. :floppy_disk:
+This is a simple [AutoHotkey](https://autohotkey.com/) script for enabling Quake-like hiding and showing of Windows WSL bash terminal. You just hold down *Control* key and press *Tilde* / *Backtick*. :floppy_disk:
 
 It uses default minimizing and restoring animations, so there is almost no delay. :zap:
 
