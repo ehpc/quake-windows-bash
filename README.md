@@ -12,3 +12,4 @@ It's pretty straighforward: :mouse:
 * Download and install [AutoHotkey](https://autohotkey.com/)
 * Run `quake-windows-bash.ahk`
 * (Optionally) Place `quake-windows-bash.ahk` into auto startup folder (Win+R: "shell:startup")
+* Run *bash* and press `` CTRL + ` `` :baby_chick:
