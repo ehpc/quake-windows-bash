@@ -14,6 +14,7 @@ BashHandle = ahk_exe bash.exe
     if (mx = -1)
     {
         WinRestore, %BashHandle%
+        WinActivate, %BashHandle%
 
         ; Uncomment these lines to overcome tmux/vim rendering bug
         ; ControlSend, , ^{VK42}, %BashHandle%
