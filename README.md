@@ -9,7 +9,7 @@ It uses default minimizing and restoring animations, so there is almost no delay
 ## How to use
 
 It's pretty straightforward: :mouse:
-* Download and install [AutoHotkey](https://autohotkey.com/)
+* Download and install [AutoHotkey](https://autohotkey.com/) (version 2 supported for Windows Terminal)
 * Run `quake-windows-bash.ahk` or `quake-windows-terminal-ahk2.ahk`
 * (Optionally) Place `quake-windows-bash.ahk` or `quake-windows-terminal-ahk2.ahk` into auto startup folder (Win+R: "shell:startup")
 * Run *bash* and press `` CTRL + ` `` :baby_chick:
