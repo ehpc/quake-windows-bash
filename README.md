@@ -2,16 +2,16 @@
 
 ## Description
 
-This is a simple [AutoHotkey](https://autohotkey.com/) script for enabling Quake-like hiding and showing of Windows WSL bash terminal. You just hold down *Control* key and press *Tilde* / *Backtick*. :floppy_disk:
+This is a simple [AutoHotkey](https://autohotkey.com/) script for enabling Quake-like hiding and showing of Windows WSL bash terminal or Windows Terminal. You just hold down *Control* key and press *Tilde* / *Backtick*. :floppy_disk:
 
 It uses default minimizing and restoring animations, so there is almost no delay. :zap:
 
 ## How to use
 
 It's pretty straightforward: :mouse:
-* Download and install [AutoHotkey](https://autohotkey.com/)
-* Run `quake-windows-bash.ahk`
-* (Optionally) Place `quake-windows-bash.ahk` into auto startup folder (Win+R: "shell:startup")
+* Download and install [AutoHotkey](https://autohotkey.com/) (version 2 supported for Windows Terminal)
+* Run `quake-windows-bash.ahk` or `quake-windows-terminal-ahk2.ahk`
+* (Optionally) Place `quake-windows-bash.ahk` or `quake-windows-terminal-ahk2.ahk` into auto startup folder (Win+R: "shell:startup")
 * Run *bash* and press `` CTRL + ` `` :baby_chick:
 
 ## Overcoming WSL rendering bug in Tmux & Vim
