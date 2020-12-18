@@ -4,12 +4,13 @@
 
 #SingleInstance force
 #Persistent
+#InstallKeybdHook
 
 ; Windows Terminal process handle
 global BashHandle := "ahk_exe WindowsTerminal.exe"
 
 ; On CTRL+` press
-^`::
+^VKC0::
 {
     mx := WinGetMinMax(BashHandle)
 

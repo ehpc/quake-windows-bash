@@ -8,7 +8,7 @@
 BashHandle = ahk_exe bash.exe
 
 ; On CTRL+` press
-^`::
+^VKC0::
     WinGet, mx, MinMax, %BashHandle%
     ; If window is minimized, restore it
     if (mx = -1)
