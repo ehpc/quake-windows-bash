@@ -4,7 +4,7 @@
 
 #SingleInstance force
 
-; Bash process handle
+; Bash process handle (or ubuntu.exe for WSL2)
 BashHandle = ahk_exe bash.exe
 
 ; Or if you use http://git-scm.com/download/win switch to below:
