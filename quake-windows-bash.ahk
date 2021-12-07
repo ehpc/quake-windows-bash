@@ -28,3 +28,14 @@ BashHandle = ahk_exe bash.exe
         WinMinimize, %BashHandle%
     }
 Return
+; On F11 press
+f11::
+	minMaxFlag := !minMaxFlag ,
+	WinGet, MinMax
+	if minMaxFlag{
+	WinMaximize, %BashHandle%
+	}
+    else{ 
+        winRestore, %BashHandle%
+	}
+Return
