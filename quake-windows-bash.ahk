@@ -7,6 +7,9 @@
 ; Bash process handle
 BashHandle = ahk_exe bash.exe
 
+; Or if you use http://git-scm.com/download/win switch to below:
+; BashHandle = ahk_exe mintty.exe
+
 ; On CTRL+` press
 ^VKC0::
     WinGet, mx, MinMax, %BashHandle%
