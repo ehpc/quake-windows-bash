@@ -3,11 +3,11 @@
 ;; ehpc@ehpc.io
 
 #SingleInstance force
-#Persistent
-#InstallKeybdHook
+Persistent
+InstallKeybdHook
 
-; Windows Terminal process handle
-global BashHandle := "ahk_exe WindowsTerminal.exe"
+; Terminal process handle (or WindowsTerminal.exe)
+global BashHandle := "ahk_exe ubuntu.exe"
 
 ; On CTRL+` press
 ^VKC0::
